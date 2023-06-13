@@ -1,0 +1,25 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: aliceblue;
+  font-family: ;
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+section.container{
+  display: flex;
+  flex-direction: column;
+  padding-top: 5rem;
+  padding-left: 5rem;
+  min-width: 100%;
+}
+
+p.front-end {
+  margin-top: -1.5rem;
+  font-size: 6rem;
+}
