@@ -40,13 +40,20 @@ p.front-end {
   font-weight: bold;
 }
 
-div.links {
-  font-family: cursive;
+div.logos {
   display: flex;
-  align-items: center;
-  gap: .5rem;
-  font-size: 1.7rem;
-  color: aqua;
+  gap: 2rem;
+}
+
+img.allImages{
+  height: 1.7rem;
+  width: 1.7rem;
+  transition: .3s;
+}
+
+img.allImages:hover {
+  height: 2.5rem;
+  width: 2.5rem;
 }
 
 aside.info {
