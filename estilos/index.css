@@ -90,7 +90,7 @@ p.pSnake {
   justify-content: center;
   color: gold;
 }
-/* 
+
 span.toPlay {
   margin-left: 4rem;
   cursor: pointer;
@@ -106,7 +106,7 @@ span.toPlay a:hover {
   color: cyan;
   text-decoration: underline;
   transition: .3s;
-} */
+} 
 
 
 
@@ -190,7 +190,7 @@ div.scroll2 {
 div.stt3 {
   display: flex;
   align-items: center;
-  gap: 9999rem;
+  gap: 3.5rem;
 }
 
 div.scroll3 {
@@ -219,4 +219,15 @@ text-align: justify;
 margin-top: 2rem;
 }
 
+div.theLast {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: .5rem;
+  background: #615d5d;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
 
+p.year {
+  font-size: 1rem;
+}
