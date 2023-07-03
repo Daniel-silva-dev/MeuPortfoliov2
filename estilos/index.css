@@ -210,5 +210,25 @@ margin-top: 2rem;
 
 
 @media screen and (max-width: 480px) {
+  
+div.banner img {
+  height: 40rem;
+}
+  section.container {
+    padding-top: 2rem;
+    padding-left: .5rem;
+    width: 200%;
+    text-align: center;
+  }
+  aside.info {
+    width: 200%;
+    top: 15rem;
+    left: 1rem;
+    color: red;
+  }
+  p.title {
+    top: 40rem;
+    left: 12rem;
+  }
 
 }
