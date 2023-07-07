@@ -212,7 +212,8 @@ margin-top: 2rem;
 @media screen and (max-width: 480px) {
   
 div.banner img {
-  height: 40rem;
+  position: absolute;
+  width: 222%;
 }
   section.container {
     padding-top: 2rem;
@@ -230,5 +231,21 @@ div.banner img {
     top: 40rem;
     left: 12rem;
   }
+  div.project01 {
+    flex-direction: column;
+    width: 90%;
+    margin: 5%;
+    border-bottom: 2px solid #000;
+  }
+  div.project02 {
+    flex-direction: column;
+    width: 90%;
+    margin: 5%;
+  }
+
+  div.project02 img.game4{
+    bottom: 20rem;
+    left: 40rem;
+   }   
 
 }
